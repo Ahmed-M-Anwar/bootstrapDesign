@@ -1,0 +1,231 @@
+/*
+firstcolor: #08526d,
+secondcolor:#ec1c23
+*/
+.upper-bar{
+    background-color:#08526d;
+    color:rgb(172, 172, 172);
+    padding: 10px;
+    
+}
+.upper-bar .left-side{
+    text-align: right;
+}
+.upper-bar .mail{
+    color: #fff;
+}
+.upper-bar button{
+    border-radius: 2px;
+    border: solid 2px #ec1c23;
+    background: none;
+    color: rgb(172, 172, 172);
+    padding-bottom: 3px;
+    text-transform: uppercase;
+
+}
+/***********end upper bar*******/
+/**********start  navbar*********/
+.navbar-brand > span{
+    font-size: 34px;
+
+}
+.navbar-brand span:first-child{
+    color:#08526d ;
+    font-weight: bold;
+}
+.navbar-brand span:last-child{
+    color: #ec1c23 ;
+}
+.navbar-nav .nav-item .active{
+    color: #ec1c23 !important;
+}
+
+.navbar-nav .nav-link{
+    color: #08526d !important;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+/************end navbar***********/
+/***********start slider**********/
+.slider{
+    background-color: gray;
+}
+
+.slider .carousel-inner{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.slider .carousel-inner h1{
+    position: absolute;
+    color: #fff;
+    font-size: 50px;
+    z-index: 3;
+    max-width: 600;
+    line-height: 1.5;
+    left: 100px;
+}
+.slider .carousel-inner h1 span{
+    background-color:#ec1c23 ;
+    padding: 0 15 10 10;
+}
+.slider .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0,0.6);
+    z-index: 2;
+}
+.slider .carousel-item{
+    background-size: cover;
+}
+.slider .carousel-one{
+    background-image: url(../img/1.jpg);
+}
+.slider .carousel-two{
+    background-image: url(../img/2.jpg);
+}
+.slider .carousel-three{
+    background-image: url(../img/3.jpg);
+}
+.slider .carousel-indicators li{
+    height: 8px;
+    cursor: pointer;
+}
+/***********end slider************/
+
+/***********start feature********/
+.feature{
+    padding: 50px 0;
+}
+.feature i{
+      color: #fff;
+      background-color: #ec1c23;
+      width: 60px;
+      padding: 12px;
+      margin-bottom: 12px;
+}
+.feature h3{
+   color: #08526d;
+   font-size: 22px;
+}
+.feature p{
+    color: #494949;
+    font-size: 12px;
+    margin-bottom: 40px;
+}
+/***********end feature**********/
+/***********start overview*******/
+.overview{
+    padding: 100px 0;
+    background-color: #f0f5f7;
+}
+.overview h2{
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.overview p{
+    font-size: 14;
+    color: #716d6d;
+    max-width: 700px;
+    margin: 30 auto;
+}
+.overview h4{
+    color: #afacac;
+    font-size: 20;
+    font-weight: normal;
+    letter-spacing: 2;
+    margin-bottom: 40px;
+}
+.overview button{
+    background: #ec1c23;
+    border: 1px #ec1c23 solid;
+    color: #fff;
+    padding: 10 30;
+    font-size: 15px;
+    font-weight: bold;
+}
+/***********end overview***********/
+/************start feature-work********/
+.featured-work{
+    padding: 80px 0;
+}
+.featured-work h2{
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.featured-work p{
+    font-size: 14;
+    color: #716d6d;
+    max-width: 700px;
+    margin: 50 auto;
+}
+.featured-work ul li{
+    color:#08526d;
+    border: 2px solid #08526d;
+    padding: 10px 20px;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.featured-work ul li.active,
+.featured-work ul li:hover{
+    border: 2px solid #ec1c23;
+    background-color: #ec1c23;
+    color: #fff;
+}
+.featured-work ul li:hover{
+    cursor: pointer;
+}
+
+.featured-work .upimg{
+    margin-top: 60px;
+}
+.featured-work .row{
+    margin-right: 0px;
+}
+.featured-work .shuffle-img .col-md{
+    padding: 0;
+    transition: all 0.5s ease-in-out;
+}
+.featured-work .shuffle-img img{
+      width: 100%;
+}
+/************end feature-work**********/
+/************start latest posts********/
+
+/************end latest posts**********/
+.latest-posts{
+    padding: 0 0 80px;
+}
+.latest-posts h2{
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.latest-posts .section-desc{
+    font-size: 14;
+    color: #716d6d;
+    max-width: 700px;
+    margin: 50 auto;
+}
+.latest-posts .card{
+    margin-bottom: 10px;
+}
+.latest-posts .card-title{
+    font-size: 18px;
+    color: #08526d;
+}
+.latest-posts .card-link{
+    color:#ec1c23;
+    font-weight: bold;
+}
